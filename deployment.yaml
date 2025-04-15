@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v3
 kind: Deployment
 metadata:
   name: simple-nodejs-app
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: simple-nodejs-app
-        image: archanah07/nodejs_ap  
+        image: archanah07/nodejs_ap v3
         ports:
         - containerPort: 3001
